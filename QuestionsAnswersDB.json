@@ -1,0 +1,123 @@
+[
+    {
+        "qNumber" :  1,
+		"imageUrl": null,
+		"question": "Near a pedestrian crossing, when the pedestrians are waiting to cross the road, you should-",
+		"options": {
+			"1" :  "Sound horn and proceed.", 
+			"2" :  "Slow down, sound horn and pass.", 
+			"3" :  "Stop the vehicle and wait till the pedestrians cross the road and then proceed."
+		},
+        "answer" : "3"
+    },
+    {
+        "qNumber" :  2,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs1.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Stop.", 
+			"2" :  "No parking.", 
+			"3" :  "Hospital ahead."
+		},
+        "answer" : "1"
+    },
+    {
+		"qNumber" :  3,
+		"imageUrl": null,
+		"question": "You are approaching a narrow bridge, another vehicle is about to enter the bridge from opposite side, you should-",
+		"options": {
+			"1" : "Increase the speed and try to cross the bridge as fast as possible.", 
+			"2" :  "Put on the headlight and pass the bridge.", 
+			"3" :  "Wait till the other vehicle crosses the bridge and then proceed."
+		},
+		"answer" :  "3"
+    },
+    {
+        "qNumber" :  4,
+		"imageUrl": "https://www.pngfind.com/pngs/m/215-2159756_indian-road-sign-compulsory-turn-left-compulsory-turn.png",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Keep left.", 
+			"2" :  "There is no road to left.", 
+			"3" :  "Compulsory turn left."
+		},
+        "answer" : "3"
+    },
+    {
+        "qNumber" :  5,
+		"imageUrl": null,
+		"question": "When a vehicle involved in an accident causing injury to any person",
+		"options": {
+			"1" :  "Take the vehicle to the nearest police stattion and report the accident.", 
+			"2" :  "Stop the vehicle and report to the police station.", 
+			"3" :  "Take all reasonable steps to secure medical attention to the injured and report to the nearest police station within 24 hours."
+		},
+        "answer" : "3"
+    },
+    {
+        "qNumber" :  6,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs2.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Give away.", 
+			"2" :  "Hospital ahead.", 
+			"3" :  "Traffic island ahead."
+		},
+        "answer" : "1"
+    },
+    {
+        "qNumber" :  7,
+		"imageUrl": null,
+		"question": "On a road designated as one way",
+		"options": {
+			"1" :  "Parking is prohibited.", 
+			"2" :  "Overtaking is prohibited.", 
+			"3" :  "Should not drive in reverse gear."
+		},
+        "answer" : "3"
+    },
+    {
+        "qNumber" :  8,
+		"imageUrl": "https://gujaratdrivinglicence.com/images/oneways-signs1.gif",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "No entry.", 
+			"2" :  "One way.", 
+			"3" :  "Speed limit ends."
+		},
+        "answer" : "2"
+    },
+    {
+        "qNumber" :  9,
+		"imageUrl": null,
+		"question": "You can overtake a vehicle in front",
+		"options": {
+			"1" :  "Through the right side of the vehicle.", 
+			"2" :  "Through the left side.", 
+			"3" :  "Through the left side, if the road is wide."
+		},
+        "answer" : "1"
+    },
+    {
+        "qNumber" :  10,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs17.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Right turn prohibited.", 
+			"2" :  "Sharp curve to the right.", 
+			"3" :  "U-turn prohibited."
+		},
+        "answer" : "3"
+    },
+    {
+        "qNumber" :  11,
+		"imageUrl": null,
+		"question": "When a vehicle approaches unguarded railway",
+		"options": {
+			"1" :  "Stop the vehicle on the left side of the road, get down from the vehicle, go to the railway track, and ensure that no train or trolley is coming from either side.", 
+			"2" :  "Sound horn and cross the track as fast as possible.", 
+			"3" :  "Wait till the train passes."
+		},
+        "answer" : "1"
+    }
+]

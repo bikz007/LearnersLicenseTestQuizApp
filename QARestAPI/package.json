@@ -1,0 +1,19 @@
+{
+  "name": "qarestapi",
+  "version": "1.0.0",
+  "description": "Rest API for traffic lessons quiz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testdev": "nodemon index.js"
+  },
+  "author": "bikz007",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
