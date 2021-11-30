@@ -119,5 +119,170 @@
 			"3" :  "Wait till the train passes."
 		},
         "answer" : "1"
+    },
+	{
+        "qNumber" :  12,
+		"imageUrl": "https://5.imimg.com/data5/WS/AM/OH/SELLER-4251180/cross-road-sign-500x500.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Pedestrian crossing.", 
+			"2" :  "Pedestrians may enter.", 
+			"3" :  "Pedestrians prohibited."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  13,
+		"imageUrl": null,
+		"question": "How can you distinguish a transport vehicle.",
+		"options": {
+			"1" :  "By looking at the tire size.", 
+			"2" :  "By color of the vehicle.", 
+			"3" :  "By looking at the number plate of the vehicle."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  14,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_irs15.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Keep right side.", 
+			"2" :  "Parking on the right allowed.", 
+			"3" :  "Compulsory turn to right."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  15,
+		"imageUrl": null,
+		"question": "Validity of learners license-",
+		"options": {
+			"1" :  "Till the driving licence is obtained.", 
+			"2" :  "6 months.", 
+			"3" :  "30 days."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  16,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs15.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "U-turn prohibited.", 
+			"2" :  "Right turn prohibited.", 
+			"3" :  "Overtaking through left prohibited."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  17,
+		"imageUrl": null,
+		"question": "In a road without footpath, the pedestrians",
+		"options": {
+			"1" :  "Should walk on the left side of the road.", 
+			"2" :  "Should walk on the right side of the road.", 
+			"3" :  "May walk on either side of the road."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  18,
+		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/HORN_PROHIBITED.png/1200px-HORN_PROHIBITED.png",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Horn prohibited.", 
+			"2" :  "Compulsory sound horn.", 
+			"3" :  "May sound horn."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  19,
+		"imageUrl": null,
+		"question": "Free passasge should be given to the following types of vehicles",
+		"options": {
+			"1" :  "Police vehicles.", 
+			"2" :  "Ambulance and fire service vehicles.", 
+			"3" :  "Express, Super Express buses."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  20,
+		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singapore_road_sign_-_Warning_-_Narrow_bridge.svg/2147px-Singapore_road_sign_-_Warning_-_Narrow_bridge.svg.png",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Roads on both side in front.", 
+			"2" :  "Narrow bridge ahead.", 
+			"3" :  "Narrow road ahead."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  21,
+		"imageUrl": null,
+		"question": "Vehicles proceeding from opposite direction should be allowed to pass through-",
+		"options": {
+			"1" :  "Your right side.", 
+			"2" :  "Your left side.", 
+			"3" :  "The convenient side."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  22,
+		"imageUrl": "https://traffic.haryanapolice.gov.in/images/hospital.gif",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "First aid post.", 
+			"2" :  "Resting place.", 
+			"3" :  "Hospital."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  23,
+		"imageUrl": null,
+		"question": "Driver of a vehicle may overtake-",
+		"options": {
+			"1" :  "While driving downhill.", 
+			"2" :  "If the road is sufficiently wide.", 
+			"3" :  "When the driver of the vehicle in front shows the signal to overtake."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  24,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_irs9.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "First aid post.", 
+			"2" :  "Resting place.", 
+			"3" :  "Hospital."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  25,
+		"imageUrl": null,
+		"question": "Driver of a motor vehicle shall drive through-",
+		"options": {
+			"1" :  "The right side of the road.", 
+			"2" :  "The left side of the road.", 
+			"3" :  "The Center side of the road."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  26,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_irs12.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "First aid post.", 
+			"2" :  "Resting place.", 
+			"3" :  "Hospital."
+		},
+        "answer" : "2"
     }
 ]
