@@ -1,2 +1,2 @@
-# QARestAPI
-Rest API for questions and answers related to driving license
+# LearnersLicenseTestQuizApp
+Quiz app and API for Learner's License Test
