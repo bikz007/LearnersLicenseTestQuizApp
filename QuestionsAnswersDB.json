@@ -284,5 +284,159 @@
 			"3" :  "Hospital."
 		},
         "answer" : "2"
-    }
+    },
+	{
+        "qNumber" :  27,
+		"imageUrl": null,
+		"question": "When a vehicle is parked on the road side during night-",
+		"options": {
+			"1" :  "The vehicle should be locked.", 
+			"2" :  "The person having licence to drive such a vehicle should be in drivers seat.", 
+			"3" :  "The park shall remain lit."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  28,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs28.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Road closed.", 
+			"2" :  "No parking.", 
+			"3" :  "End of speed restriction."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  29,
+		"imageUrl": null,
+		"question": "Fog lamps are used",
+		"options": {
+			"1" :  "During night.", 
+			"2" :  "When there is mist.", 
+			"3" :  "when the opposite vehicle is not using dim light."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  30,
+		"imageUrl": "https://सारथी.भारत/sites/default/files/images/trafficsigns/narrow-road.png",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Narrow road ahead.", 
+			"2" :  "Narrow bridge ahead.", 
+			"3" :  "Roads on both sides ahead."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  31,
+		"imageUrl": null,
+		"question": "Zebra lines are meant for",
+		"options": {
+			"1" :  "stopping vehicle.", 
+			"2" :  "pedestrians crossing.", 
+			"3" :  "for giving preference to vehicle."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  32,
+		"imageUrl": "https://img.driverstest.info/img/unguarded_level_crossing_train_india_sign.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Railway station near.", 
+			"2" :  "Level crossing unguarded.", 
+			"3" :  "Level crossing Guarded."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  33,
+		"imageUrl": null,
+		"question": "When an ambulance is approaching",
+		"options": {
+			"1" :  "allow passage if there are no vehicles from front side.", 
+			"2" :  "no preference need to be given.", 
+			"3" :  "the driver should allow free passage by drawing to the side of the road."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  34,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs18.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Entry through right side prohibited.", 
+			"2" :  "Entry through left prohibited.", 
+			"3" :  "Overtaking prohibited."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  35,
+		"imageUrl": null,
+		"question": "Red traffic light indicates",
+		"options": {
+			"1" :  "vehicle can proceed with caution.", 
+			"2" :  "stop the vehicle.", 
+			"3" :  "slow down."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  36,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_crs21.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Cross road.", 
+			"2" :  "No entry.", 
+			"3" :  "Hospital."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  37,
+		"imageUrl": null,
+		"question": "Parking a vehicle infront of entrance to hospital",
+		"options": {
+			"1" :  "Proper.", 
+			"2" :  "Improper.", 
+			"3" :  "Proper if NO PARKING sign is not provided."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  38,
+		"imageUrl": "https://i0.wp.com/civilnoteppt.com/wp-content/uploads/2020/07/gg-1.png",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Restriction ends.", 
+			"2" :  "No entry.", 
+			"3" :  "No overtaking."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  39,
+		"imageUrl": null,
+		"question": "Where the slippery road sign is seen on the road, the driver shall",
+		"options": {
+			"1" :  "reduce the speed by changing the gear.", 
+			"2" :  "apply brake.", 
+			"3" :  "Proceed in the same speed."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  40,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_crs24.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "May turn to left.", 
+			"2" :  "Compulsory go ahead or turn left.", 
+			"3" :  "Side road left."
+		},
+        "answer" : "3"
+    },
 ]
