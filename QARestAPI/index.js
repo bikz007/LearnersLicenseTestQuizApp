@@ -33,6 +33,6 @@ app.get("/qna/:idx", (req, res) => {
 });
 // in unix export QNA_API_PORT=<value>
 // in windows set QNA_API_PORT <value>
-app.listen(process.env.QNA_API_PORT, () => {
-  console.info(`QNA API running in ${process.env.QNA_API_PORT}`);
+app.listen(process.env.QNA_API_PORT || 4000, () => {
+  console.info(`QNA API running in ${process.env.QNA_API_PORT || 4000}`);
 });
