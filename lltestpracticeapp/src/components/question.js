@@ -14,6 +14,24 @@ class Question extends React.Component {
   // to fetch the data while the
   // component finished mounting
   componentDidMount() {
+    const { qIdx, updateInterVal } = this.props;
+    fetch(`http://localhost:4000/qna/${qIdx}`)
+      .then((res) => res.json())
+      .then((resJson) => {
+        this.setState({ ques: resJson, DataIsLoaded: true });
+      })
+      .catch((err) => console.error(`Error: ${err}`));
+    this.updateTimer = setInterval(
+      () => this.fetchNewQuestion(),
+      updateInterVal * 1000
+    );
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.updateTimer);
+  }
+
+  fetchNewQuestion() {
     const { qIdx } = this.props;
     fetch(`http://localhost:4000/qna/${qIdx}`)
       .then((res) => res.json())
