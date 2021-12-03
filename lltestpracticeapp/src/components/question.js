@@ -1,68 +1,59 @@
 import React from "react";
 import "../styles/question.css";
-
+import ImageRender from "./imagerender";
 class Question extends React.Component {
   //constructor
   constructor(props) {
     super(props);
-    this.state = {
-      ques: [],
-      DataIsLoaded: false,
-    };
-  }
-  // componentDidMount is used
-  // to fetch the data while the
-  // component finished mounting
-  componentDidMount() {
-    const { qIdx, updateInterVal } = this.props;
-    fetch(`http://localhost:4000/qna/${qIdx}`)
-      .then((res) => res.json())
-      .then((resJson) => {
-        this.setState({ ques: resJson, DataIsLoaded: true });
-      })
-      .catch((err) => console.error(`Error: ${err}`));
-    this.updateTimer = setInterval(
-      () => this.fetchNewQuestion(),
-      updateInterVal * 1000
-    );
+    this.state = {};
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
-  componentWillUnmount() {
-    clearInterval(this.updateTimer);
-  }
-
-  fetchNewQuestion() {
-    const { qIdx } = this.props;
-    fetch(`http://localhost:4000/qna/${qIdx}`)
-      .then((res) => res.json())
-      .then((resJson) => {
-        this.setState({ ques: resJson, DataIsLoaded: true });
-      })
-      .catch((err) => console.error(`Error: ${err}`));
-  }
+  handleSubmit(event) {}
 
   render() {
-    const { ques, DataIsLoaded } = this.state;
-    if (!DataIsLoaded) {
-      return <div>Loading question...</div>;
-    } else {
-      return (
-        <div className="question container">
-          <div className="question-body">
-            <main>
-              <p className="question-text">
-                Q-{ques.qNumber}: {ques.question}
-              </p>
-              <ul className="question-options">
-                <li>{ques.options["1"]}</li>
-                <li>{ques.options["2"]}</li>
-                <li>{ques.options["3"]}</li>
-              </ul>
-            </main>
-          </div>
+    const { ques } = this.props;
+    return (
+      <div className="question">
+        <div className="question-body">
+          <main>
+            <p className="question-text">
+              Q-{ques.qNumber}: {ques.question}
+            </p>
+            <ImageRender imgUrl={ques.imageUrl} />
+            <form onSubmit={this.handleSubmit} className="question-options">
+              <legend>Choose one of these three options:</legend>
+              <input
+                id="option-one"
+                type="radio"
+                name="answer"
+                value={1}
+                onClick={this.props.onOptionSelect}
+              />
+              <label htmlFor="option-one">{ques.options[1]}</label>
+              <br />
+              <input
+                id="option-two"
+                type="radio"
+                name="answer"
+                value={2}
+                onClick={this.props.onOptionSelect}
+              />
+              <label htmlFor="option-two">{ques.options[2]}</label>
+              <br />
+              <input
+                id="option-three"
+                type="radio"
+                name="answer"
+                value={3}
+                onClick={this.props.onOptionSelect}
+              />
+              <label htmlFor="option-three">{ques.options[3]}</label>
+            </form>
+          </main>
         </div>
-      );
-    }
+      </div>
+    );
   }
 }
 
