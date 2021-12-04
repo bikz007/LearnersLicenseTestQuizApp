@@ -438,5 +438,181 @@
 			"3" :  "Side road left."
 		},
         "answer" : "3"
+    },
+	{
+        "qNumber" :  41,
+		"imageUrl": null,
+		"question": "Overtaking is prohibited in following circumstances",
+		"options": {
+			"1" :  "when it is likely to cause inconvenience or danger to other traffic.", 
+			"2" :  "When the vehicle infront is losing reducing speed.", 
+			"3" :  "during night."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  42,
+		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Compulsory_sound_horn_sign_%28India%29.svg/1200px-Compulsory_sound_horn_sign_%28India%29.svg.png",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Sound horn compulsory.", 
+			"2" :  "Sound horn continuously.", 
+			"3" :  "Horn prohibited."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  43,
+		"imageUrl": null,
+		"question": "Overtaking when approaching a bend",
+		"options": {
+			"1" :  "is permissible.", 
+			"2" :  "not permissible.", 
+			"3" :  "is permissible with care."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  44,
+		"imageUrl": "https://traffic-rules.com/img/asia/in/signs/mandatory/mandatory-direction-ahead-turn-right.png",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Road to the right infront.", 
+			"2" :  "Compulsory turn right.", 
+			"3" :  "Turn to right prohibited."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  45,
+		"imageUrl": null,
+		"question": "Drunken driving",
+		"options": {
+			"1" :  "allowed in private vehicles.", 
+			"2" :  "allowed during night time.", 
+			"3" :  "prohibited in all vehicles."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  46,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs20.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "End of restriction.", 
+			"2" :  "Do not stop.", 
+			"3" :  "No parking."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  47,
+		"imageUrl": null,
+		"question": "Use of horn prohibited",
+		"options": {
+			"1" :  "Mosque, church and temple.", 
+			"2" :  "Near hospital, courts of law.", 
+			"3" :  "Near police station."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  48,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs4.jpg",
+		"question": "The following sign represents",
+		"options": {
+			"1" :  "Go straight.", 
+			"2" :  "One way.", 
+			"3" :  "Prohibited in both direction."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  49,
+		"imageUrl": null,
+		"question": "Rear view mirror is used",
+		"options": {
+			"1" :  "for seeing face.", 
+			"2" :  "for approaching the traffic approaching from behind.", 
+			"3" :  "for seeing the backseat passenger."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  50,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs7.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "No entry for motor vehicles.", 
+			"2" :  "No entry for cars and motor vehicles.", 
+			"3" :  "Entry allowed for cars and motor vehicles."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  51,
+		"imageUrl": null,
+		"question": "Boarding in and alighting from a vehicle in motion",
+		"options": {
+			"1" :  "Permitted in bus.", 
+			"2" :  "Permitted in autorickshaw.", 
+			"3" :  "Prohibited in all vehicles."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  52,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs8.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Trucks prohibited.", 
+			"2" :  "Bus prohibited.", 
+			"3" :  "Heavy vehicles prohibited."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  53,
+		"imageUrl": null,
+		"question": "Parking is permitted",
+		"options": {
+			"1" :  "In turnings.", 
+			"2" :  "On footpaths.", 
+			"3" :  "Where is parking is not prohibited."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  54,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs10.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Bullock cart prohibited.", 
+			"2" :  "Cycle prohibited.", 
+			"3" :  "All vehicles prohibited."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  55,
+		"imageUrl": null,
+		"question": "When fuel is filled in a vehicle",
+		"options": {
+			"1" :  "shall not check air pressure.", 
+			"2" :  "shall not smoke.", 
+			"3" :  "shall not use any light of the vehicle."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  56,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs14.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Students prohibited.", 
+			"2" :  "Pedestrians permitted.", 
+			"3" :  "Pedestrians prohibited."
+		},
+        "answer" : "3"
     }
 ]
