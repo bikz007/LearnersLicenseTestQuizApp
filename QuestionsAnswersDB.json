@@ -614,5 +614,148 @@
 			"3" :  "Pedestrians prohibited."
 		},
         "answer" : "3"
+    },
+	{
+        "qNumber" :  57,
+		"imageUrl": null,
+		"question": "Mobile phones shall not be used",
+		"options": {
+			"1" :  "In govenment offices.", 
+			"2" :  "In police stations.", 
+			"3" :  "while driving a vehicle."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  58,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs16.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Overtaking prohibited through the right side.", 
+			"2" :  "Turn left.", 
+			"3" :  "Left turn prohibited."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  59,
+		"imageUrl": null,
+		"question": "Overtaking is prohibited",
+		"options": {
+			"1" :  "When the road ahead is not clearly visible.", 
+			"2" :  "When the road is wide enough.", 
+			"3" :  "When the road center is marked with white broken lines."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  60,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs22.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Drive the vehicle not exceeding 50km/hr.", 
+			"2" :  "Drive the vehicle at 50km/hr.", 
+			"3" :  "Drive the vehicle exceeding 50km/hr."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  61,
+		"imageUrl": null,
+		"question": "Pedestrians shall not cross the road at sharp bends or very near to a stopped vehicle. Why?",
+		"options": {
+			"1" :  "Inconvenience to other vehicles.", 
+			"2" :  "Inconvenience to other road users.", 
+			"3" :  "Drivers of other vehicles coming at a distance may not see persons crossing the road."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  62,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs23.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Speed limit 2km/hr.", 
+			"2" :  "No entry for vehicles having more than 2 meters width.", 
+			"3" :  "No entry for vehicles having more than 2 meters height."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  63,
+		"imageUrl": null,
+		"question": "Records of a private vehicle are",
+		"options": {
+			"1" :  "Resgistration certificate, G.C.R, Insurance certificate.", 
+			"2" :  "Resgistration certificate, Insurance certificate, Tax Token, Driving license", 
+			"3" :  "Resgistration certificate, permit, trip sheet."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  64,
+		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Mauritius_Road_Signs_-_Prohibitory_Sign_-_No_entry_for_vehicles_having_an_overall_height_exceeding_3.5_metres.svg/240px-Mauritius_Road_Signs_-_Prohibitory_Sign_-_No_entry_for_vehicles_having_an_overall_height_exceeding_3.5_metres.svg.png",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Entry only for vehicles height above 3.5 meters.", 
+			"2" :  "Entry only for vehicles width above 3.5 meters.", 
+			"3" :  "Entry only for vehicles having height not more than 3.5 meters."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  65,
+		"imageUrl": null,
+		"question": "While turning to a road to the left of the road in which you are going, you should",
+		"options": {
+			"1" :  "Show the left turn signal, drive to the center and turn to the left.", 
+			"2" :  "Sound horn and turn to the left.", 
+			"3" :  "Show the left turn signal, keep to the left side of the road and turn to the left."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  66,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs21.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Stop.", 
+			"2" :  "No stopping or standing.", 
+			"3" :  "Junction."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  67,
+		"imageUrl": null,
+		"question": "Validity of P.U.C.C Pollution Under Control Certificate",
+		"options": {
+			"1" :  "6 months.", 
+			"2" :  "One year.", 
+			"3" :  "Two years."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  68,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs30.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "No entry.", 
+			"2" :  "Ahead only.", 
+			"3" :  "Entry in both direction."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  69,
+		"imageUrl": null,
+		"question": "While you are driving with the head light in high beam during night, a vehicle approaches from opposite direction, you will",
+		"options": {
+			"1" :  "Proceed keeping to the left.", 
+			"2" :  "Put the head light in dim and bright alternatively several times.", 
+			"3" :  "Dim the head light till the vehicle passes."
+		},
+        "answer" : "3"
     }
 ]
