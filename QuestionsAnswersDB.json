@@ -911,5 +911,181 @@
 			"3" :  "5 years."
 		},
         "answer" : "2"
+    },
+	{
+        "qNumber" :  84,
+		"imageUrl": "https://4.imimg.com/data4/YD/QP/ETO-5394299/t004011464-500x500.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Right reverse bend.", 
+			"2" :  "Left reverse bend.", 
+			"3" :  "Turn left and go ahead."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  85,
+		"imageUrl": null,
+		"question": "Before overtaking a vehicle, it should be ensured that...",
+		"options": {
+			"1" :  "No vehicle is approaching from behind.", 
+			"2" :  "The road ahead is clearly visible and it is safe to overtake.", 
+			"3" :  "The vehicle infront is turning left."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  86,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs27.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Side road left.", 
+			"2" :  "Speed limit.", 
+			"3" :  "Axle weight limit."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  87,
+		"imageUrl": null,
+		"question": "Number of persons can be carried in the cabin of Goods Carriage",
+		"options": {
+			"1" :  "5 persons.", 
+			"2" :  "Sufficient persons for loading and unloading the gift.", 
+			"3" :  "As many persons as recorded in the Registration Certificate."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  88,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_crs23.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Turn right.", 
+			"2" :  "Side road right.", 
+			"3" :  "Keep right."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  89,
+		"imageUrl": null,
+		"question": "When your vehicle is being overtaken, you should",
+		"options": {
+			"1" :  "Stop your vehicle and let the vehicle overtake.", 
+			"2" :  "Increase the speed of your vehicle.", 
+			"3" :  "Not obstruct the other vehicle from overtaking."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  90,
+		"imageUrl": "https://tiimg.tistatic.com/fp/3/005/325/major-road-ahead-cautionary-retro-reflective-road-signage-836.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Major road ahead.", 
+			"2" :  "Cross road ahead.", 
+			"3" :  "Narrow road ahead."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  91,
+		"imageUrl": null,
+		"question": "A place where parking is prohibited",
+		"options": {
+			"1" :  "In front of a parked vehicle.", 
+			"2" :  "On one-way road.", 
+			"3" :  "On foot path."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  92,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_crs32.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Turn right.", 
+			"2" :  "Turn left.", 
+			"3" :  "Round about."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  93,
+		"imageUrl": null,
+		"question": "The hand brake is to be used",
+		"options": {
+			"1" :  "To reduce the speed.", 
+			"2" :  "To apply sudden break.", 
+			"3" :  "To park a vehicle."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  94,
+		"imageUrl": "https://4.imimg.com/data4/KH/RE/ETO-5394299/t004011455-500x500.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Narrow road ahead.", 
+			"2" :  "Dangerous slip.", 
+			"3" :  "Ferry."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  95,
+		"imageUrl": null,
+		"question": "More than 2 persons on a two wheeler is",
+		"options": {
+			"1" :  "Allowed in unavoidable circumstances.", 
+			"2" :  "Violation of law.", 
+			"3" :  "Allowed on the traffic is less."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  96,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_crs38.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Guarded level cross.", 
+			"2" :  "Unguarded level cross.", 
+			"3" :  "Barrier ahead."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  97,
+		"imageUrl": null,
+		"question": "You want to overtake a vehicle near a hospital. You will",
+		"options": {
+			"1" :  "Blow the horn continuosly.", 
+			"2" :  "Not blow horn.", 
+			"3" :  "Blow the horn intemittently."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  98,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_crs25.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Y-intersection left.", 
+			"2" :  "Y-intersection right.", 
+			"3" :  "Side road left."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  99,
+		"imageUrl": null,
+		"question": "Using unregistered vehicle in public place is ",
+		"options": {
+			"1" :  "Illegeal.", 
+			"2" :  "Legal.", 
+			"3" :  "Legal if there is any urgency."
+		},
+        "answer" : "1"
     }
 ]
