@@ -757,5 +757,159 @@
 			"3" :  "Dim the head light till the vehicle passes."
 		},
         "answer" : "3"
+    },
+	{
+        "qNumber" :  70,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs33.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Compulsory ahead or turn right.", 
+			"2" :  "Compulsory ahead or turn left.", 
+			"3" :  "Side road ahead."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  71,
+		"imageUrl": null,
+		"question": "The Driver of a vehicle extends his right arm with the palm downward and moves the arm upward and downward several times.You will understand that",
+		"options": {
+			"1" :  "He is turning to the left.", 
+			"2" :  "He is slowing down the vehicle.", 
+			"3" :  "Allowing to overtake."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  72,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs34.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Stop on the left.", 
+			"2" :  "Compulsory keep left.", 
+			"3" :  "Turn left."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  73,
+		"imageUrl": null,
+		"question": "Minimum age for getting a licence to drive motor cycle without gear",
+		"options": {
+			"1" :  "18 years.", 
+			"2" :  "21 years.", 
+			"3" :  "16 years."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  74,
+		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Right_hand_curve_sign_%28India%29.svg/846px-Right_hand_curve_sign_%28India%29.svg.png",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Right ascend.", 
+			"2" :  "Right hand curve.", 
+			"3" :  "Keep right."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  75,
+		"imageUrl": null,
+		"question": "When you see the traffic sign School, you should",
+		"options": {
+			"1" :  "Stop the vehicle, sound horn and proceed.", 
+			"2" :  "Slow down and proceed with caution.", 
+			"3" :  "Sound horn continuously and proceed."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  76,
+		"imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Left_hand_curve_sign_%28India%29.svg/1200px-Left_hand_curve_sign_%28India%29.svg.png",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Left hand curve.", 
+			"2" :  "Left ascend.", 
+			"3" :  "Keep left."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  77,
+		"imageUrl": null,
+		"question": "When turning to the left, the driver of a two wheeler shall",
+		"options": {
+			"1" :  "Extend his left hand towards left.", 
+			"2" :  "Now show hand signal.", 
+			"3" :  "Show left turn signal with his right hand."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  78,
+		"imageUrl": "https://4.imimg.com/data4/UV/PR/ETO-8882292/right-hair-pin-bend-cautionary-sign-500x500.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Right hair pin bend.", 
+			"2" :  "Right ascend and descend.", 
+			"3" :  "Right descend."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  79,
+		"imageUrl": null,
+		"question": "The signal while taking U-turn",
+		"options": {
+			"1" :  "Left turn signal.", 
+			"2" :  "Right turn signal.", 
+			"3" :  "Slow down signal."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  80,
+		"imageUrl": "https://4.imimg.com/data4/PB/DU/ETO-5394299/t004011463-500x500.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Left descend.", 
+			"2" :  "Left hair pin bend.", 
+			"3" :  "Keep left."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  81,
+		"imageUrl": null,
+		"question": "The driver of a vehicle shall not take U-turn",
+		"options": {
+			"1" :  "In a road where there is no traffic restrictions.", 
+			"2" :  "In a busy road.", 
+			"3" :  "When there are vehicles passing through the left."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  82,
+		"imageUrl": "https://5.imimg.com/data5/YI/TM/MY-152348/right-reverse-bend-cautionary-retro-reflective-road-signage-500x500.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Right reverse bend.", 
+			"2" :  "Left reverse bend.", 
+			"3" :  "Turn right and go ahead."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  83,
+		"imageUrl": null,
+		"question": "One time tax for a new car is for",
+		"options": {
+			"1" :  "Till the registration of the vehicle is cancelled.", 
+			"2" :  "15 years.", 
+			"3" :  "5 years."
+		},
+        "answer" : "2"
     }
 ]
