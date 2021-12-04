@@ -76,9 +76,8 @@ class GenerateRandomQuesionIdx extends React.Component {
         break;
       }
     }
-    this.setState({
-      randomQuestionIdx: newIdx,
-    });
+    // eslint-disable-next-line
+    this.state.randomQuestionIdx = newIdx
     this.fetchQuestion(this.state.randomQuestionIdx);
     this.setState({
       secondsCount: 0,
@@ -90,7 +89,8 @@ class GenerateRandomQuesionIdx extends React.Component {
   startNewQuiz() {
     // eslint-disable-next-line
     this.state.numOfQuesAppeared = 0;
-    
+    // eslint-disable-next-line
+    this.state.results.length = 0;
     this.setState({
       secondsCount: 0,
     });
@@ -102,11 +102,25 @@ class GenerateRandomQuesionIdx extends React.Component {
       qNumber: this.state.ques.qNumber,
       answerSelected: evt.target.value,
       correctAnswer: this.state.ques.answer,
+      isCorrect:
+        parseInt(evt.target.value) === parseInt(this.state.ques.answer),
     };
     this.setState({
       results: [...this.state.results, answerObj],
       selectedAnswer: evt.target.value,
     });
+  }
+
+  handleSaveToPC() {
+    const jsonData = this.state.results;
+    const filename = "results";
+    const fileData = JSON.stringify(jsonData,null,4);
+    const blob = new Blob([fileData], {type: "text/plain"});
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.download = `${filename}.json`;
+    link.href = url;
+    link.click();
   }
 
   render() {
@@ -118,6 +132,9 @@ class GenerateRandomQuesionIdx extends React.Component {
         return (
           <div>
             <DisplayResult results={this.state.results} />
+            <button onClick={this.handleSaveToPC.bind(this)}>
+              Save results
+            </button>
             <button onClick={this.startNewQuiz.bind(this)}>
               Start next quiz
             </button>
