@@ -1087,5 +1087,159 @@
 			"3" :  "Legal if there is any urgency."
 		},
         "answer" : "1"
+    },
+	{
+        "qNumber" :  100,
+		"imageUrl": "https://4.imimg.com/data4/BR/FM/ETO-5394299/hip-retro-reflective-y-intersection-right-traffic-sign-500x500.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Y-intersection left.", 
+			"2" :  "Y-intersection right.", 
+			"3" :  "Side road left."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  101,
+		"imageUrl": null,
+		"question": "Minimum age for obtaining driving licence for transport vehicles.",
+		"options": {
+			"1" :  "25 years.", 
+			"2" :  "18 years.", 
+			"3" :  "20 years."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  102,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_crs27.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Turn left.", 
+			"2" :  "Turn right.", 
+			"3" :  "Y-intersection."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  103,
+		"imageUrl": null,
+		"question": "Overtaking is prohibited in the following case.",
+		"options": {
+			"1" :  "State highway.", 
+			"2" :  "Panchayat roads.", 
+			"3" :  "Narrow bridge."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  104,
+		"imageUrl": "https://kama.com.lb/image/cache/catalog/products/Road%20Safety/Traffic%20Signs/KA-6918/compulsory-ahead-or-turn-right-ka-6918-1-1000x1000.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Road to the right in front.", 
+			"2" :  "There are roads ahead and to the right.", 
+			"3" :  "Compulsory go ahead or turn to right."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  105,
+		"imageUrl": null,
+		"question": "If a person in charge of an animal apprehending that the animal may become unmanageable, request to stop a vehicle",
+		"options": {
+			"1" :  "The driver shall stop the vehicle.", 
+			"2" :  "The driver shall proceed, blowing the horns.", 
+			"3" :  "The driver shall reduce the speed."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  106,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_crs12.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Slippery road.", 
+			"2" :  "Gravel road.", 
+			"3" :  "No entry for motor car."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  107,
+		"imageUrl": null,
+		"question": "Parking prohibited in the following case..",
+		"options": {
+			"1" :  "road side.", 
+			"2" :  "where parking is permitted.", 
+			"3" :  "near traffic light."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  108,
+		"imageUrl": "https://i2.wp.com/civilnoteppt.com/wp-content/uploads/2020/08/hg2-1.png",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Loose gravel.", 
+			"2" :  "Slippery road.", 
+			"3" :  "No entry for motor car."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  109,
+		"imageUrl": null,
+		"question": "Over speeding...",
+		"options": {
+			"1" :  "is an offence leading to suspension or cancellation of driving licence.", 
+			"2" :  "is an offence leading to punishment by fine only.", 
+			"3" :  "is not an offence."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  110,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_mrs35.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Cycle crossing.", 
+			"2" :  "Cycle crossing prohibited.", 
+			"3" :  "No entry for cycles."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  111,
+		"imageUrl": null,
+		"question": "When school buses are stopped for picking up or setting down students...",
+		"options": {
+			"1" :  "Blow horn proceed.", 
+			"2" :  "proceed slowly and cautiously since there is chance of students suddenly crossing the road", 
+			"3" :  "No entry for cycles."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  112,
+		"imageUrl": "https://4.imimg.com/data4/CJ/FJ/ETO-5394299/t004011448-500x500.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Cattle prohibited.", 
+			"2" :  "Possibility of cattle on road.", 
+			"3" :  "Vehicles carrying cattle prohibited."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  113,
+		"imageUrl": null,
+		"question": "When a blind person crosses the road holding White Cane...",
+		"options": {
+			"1" :  "The driver of a vehicle shall consider the white cane as traffic sign to stop the vehicle", 
+			"2" :  "Blow the horn and proceed", 
+			"3" :  "Slow down and proceed with caution."
+		},
+        "answer" : "1"
     }
 ]
