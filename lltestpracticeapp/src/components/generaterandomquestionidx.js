@@ -19,6 +19,7 @@ class GenerateRandomQuesionIdx extends React.Component {
       numOfQuesAppeared: 1,
       selectedAnswer: null,
       secondsCount: 0,
+      disableOptions: false,
     };
   }
 
@@ -53,6 +54,7 @@ class GenerateRandomQuesionIdx extends React.Component {
   // to fetch the data while the
   // component finished mounting
   componentDidMount() {
+    document.title = "Drivers Licence Quiz";
     this.fetchAllData();
     this.timerUpdateInterval = setInterval(
       () =>
@@ -77,11 +79,12 @@ class GenerateRandomQuesionIdx extends React.Component {
       }
     }
     // eslint-disable-next-line
-    this.state.randomQuestionIdx = newIdx
+    this.state.randomQuestionIdx = newIdx;
     this.fetchQuestion(this.state.randomQuestionIdx);
     this.setState({
       secondsCount: 0,
       numOfQuesAppeared: this.state.numOfQuesAppeared + 1,
+      disableOptions: false,
       selectedAnswer: null,
     });
   }
@@ -107,17 +110,29 @@ class GenerateRandomQuesionIdx extends React.Component {
     };
     this.setState({
       results: [...this.state.results, answerObj],
+      disableOptions: true,
       selectedAnswer: evt.target.value,
     });
   }
 
   handleSaveToPC() {
     const jsonData = this.state.results;
-    const filename = "results";
-    const fileData = JSON.stringify(jsonData,null,4);
-    const blob = new Blob([fileData], {type: "text/plain"});
+    const currDate = new Date();
+    const filename =
+      "results_" +
+      currDate.getFullYear() +
+      "_" +
+      (currDate.getMonth() + 1) +
+      "_" +
+      currDate.getDate() +
+      "_" +
+      currDate.getHours() +
+      "_" +
+      currDate.getMinutes();
+    const fileData = JSON.stringify(jsonData, null, 4);
+    const blob = new Blob([fileData], { type: "text/plain" });
     const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
+    const link = document.createElement("a");
     link.download = `${filename}.json`;
     link.href = url;
     link.click();
@@ -143,19 +158,24 @@ class GenerateRandomQuesionIdx extends React.Component {
       } else {
         return (
           <div className="GenerateRandomQuesionIdx container">
-            <p>Num of questions so far: {numOfQuesAppeared}</p>
+            <div>
+              <button onClick={this.updateQuestion.bind(this)}>
+                Next question
+              </button>
+            </div>
+            <div>
+              <p>Num of questions so far: {numOfQuesAppeared}</p>
+            </div>
             <h1>Timer: {TIME_FOR_EACH_QUESTION - this.state.secondsCount}</h1>
             <Question
               ques={this.state.ques}
+              disableOptions={this.state.disableOptions}
               onOptionSelect={this.selectedAnswerChange.bind(this)}
             />
             <CheckAnswer
               selectedAnswer={this.state.selectedAnswer}
               correctAnswer={this.state.ques.answer}
             />
-            <button onClick={this.updateQuestion.bind(this)}>
-              Next question
-            </button>
           </div>
         );
       }
