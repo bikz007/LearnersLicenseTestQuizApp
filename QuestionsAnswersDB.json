@@ -1241,5 +1241,170 @@
 			"3" :  "Slow down and proceed with caution."
 		},
         "answer" : "1"
+    },
+	{
+        "qNumber" :  114,
+		"imageUrl": "https://4.imimg.com/data4/WN/NI/MY-6322633/school-ahead-sign-board-250x250.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "School ahead.", 
+			"2" :  "Pedestrains crossing.", 
+			"3" :  "Pedestrians crossing prohibited."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  115,
+		"imageUrl": null,
+		"question": "When a motor vehicle is involved in an accident...",
+		"options": {
+			"1" :  "shall report to the nearest police station within 24 hours", 
+			"2" :  "shall report to the nearest police station within 12 hours", 
+			"3" :  "shall report to the nearest police station within 48 hours."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  116,
+		"imageUrl": "https://4.imimg.com/data4/JK/QL/ETO-5394299/t004011468_1-500x500.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Men at work.", 
+			"2" :  "Children playing.", 
+			"3" :  "Pedestrian crossing."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  117,
+		"imageUrl": null,
+		"question": "When a property of a third party is damaged due to an accident...",
+		"options": {
+			"1" :  "shall report to the nearest police station within 24 hours", 
+			"2" :  "shall report to the nearest police station within 7 days", 
+			"3" :  "need not report to any police station."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  118,
+		"imageUrl": "http://wbtrafficpolice.com/userfiles/image/sing%20symbols2/falling_rocks.JPG",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Rough road.", 
+			"2" :  "Slippery road.", 
+			"3" :  "Falling rocks."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  119,
+		"imageUrl": null,
+		"question": "When the vehicle behind has begun to over take our vehicle...",
+		"options": {
+			"1" :  "We shall not overtake another vehicle", 
+			"2" :  "we can overtake another vehicle.", 
+			"3" :  "we can overtake another vehicle blowing horn."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  120,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_crs20.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Bridge ahead.", 
+			"2" :  "Ferry.", 
+			"3" :  "Refreshment stall ahead."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  121,
+		"imageUrl": null,
+		"question": "The driver of the vehicle in front has not given signal for over taking...",
+		"options": {
+			"1" :  "We can overtake", 
+			"2" :  "we shall not overtake.", 
+			"3" :  "we can overtake blowing horn."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  122,
+		"imageUrl": "https://सारथी.भारत/sites/default/files/images/trafficsigns/steep-ascent.png",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Steep ascend.", 
+			"2" :  "Steep descend.", 
+			"3" :  "Slippery road."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  123,
+		"imageUrl": null,
+		"question": "When our vehicle is being over taken...",
+		"options": {
+			"1" :  "We shall not increase speed", 
+			"2" :  "We can increase speed.", 
+			"3" :  "We can increase speed with due care."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  124,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_crs8.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Steep ascend.", 
+			"2" :  "Steep descend.", 
+			"3" :  "Slippery road."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  125,
+		"imageUrl": null,
+		"question": "Parking is prohibited in the following place...",
+		"options": {
+			"1" :  "Entrance of hospital", 
+			"2" :  "Left side of the road.", 
+			"3" :  "Market area."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  126,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_crs10.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Narrow road ahead.", 
+			"2" :  "Y-intersection.", 
+			"3" :  "Road widens ahead."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  127,
+		"imageUrl": null,
+		"question": "Parking is prohibited in the following place...",
+		"options": {
+			"1" :  "blocking a fire hydrant", 
+			"2" :  "near a public well.", 
+			"3" :  "left side of the road."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  128,
+		"imageUrl": "https://i0.wp.com/civilnoteppt.com/wp-content/uploads/2020/07/Gap-in-median-1.png",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Drainage in middle.", 
+			"2" :  "Bridge ahead.", 
+			"3" :  "Gap in median."
+		},
+        "answer" : "3"
     }
 ]
