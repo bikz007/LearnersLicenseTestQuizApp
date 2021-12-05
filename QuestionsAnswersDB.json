@@ -1406,5 +1406,137 @@
 			"3" :  "Gap in median."
 		},
         "answer" : "3"
+    },
+	{
+        "qNumber" :  129,
+		"imageUrl": null,
+		"question": "To carry pillon rider on a motor cycle....",
+		"options": {
+			"1" :  "the vehicle shall be provided with foot rest, hand grip and sari guard", 
+			"2" :  "the vehicle shall be provided with side car.", 
+			"3" :  "vehicle shall be provided with rear view mirror."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  130,
+		"imageUrl": "https://4.imimg.com/data4/TO/HF/MY-6322633/hump-rough-sign-boards-250x250.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Hump or rough road.", 
+			"2" :  "Zigzag road.", 
+			"3" :  "Ghat road."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  131,
+		"imageUrl": null,
+		"question": "Smoking while driving public service vehicle...",
+		"options": {
+			"1" :  "can attract suspension of driving licence", 
+			"2" :  "can attract fine only", 
+			"3" :  "None of the above"
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  132,
+		"imageUrl": "https://4.imimg.com/data4/XB/LG/MY-6322633/barrier-ahead-sign-board-250x250.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Barrier ahead.", 
+			"2" :  "Railway cross ahead.", 
+			"3" :  "Weighbridge ahead."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  133,
+		"imageUrl": null,
+		"question": "Abandoning vehicle in a public place causing inconvenience to others or passengers...",
+		"options": {
+			"1" :  "the driving licence is liable to be suspended or cancelled", 
+			"2" :  "only fine is attracted", 
+			"3" :  "None of the above"
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  134,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_irs14.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "No thorough side road.", 
+			"2" :  "Left turn.", 
+			"3" :  "Bridge ahead."
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  135,
+		"imageUrl": null,
+		"question": "Abandoning a transport vehicle as a mark of protest or agitation or any kind of strike, in a public place or in any other place causing obstruction or inconvenience to the public or passengers or other users of such places...",
+		"options": {
+			"1" :  "the driving licence is liable to be suspended or cancelled", 
+			"2" :  "only fine is attracted", 
+			"3" :  "Legitimate right of driver"
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  136,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_irs13.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Ferry ahead.", 
+			"2" :  "Main road ahead.", 
+			"3" :  "No thorough road."
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  137,
+		"imageUrl": null,
+		"question": "Carrying overload in goods carriages...",
+		"options": {
+			"1" :  "legally not punishable", 
+			"2" :  "Only fine is attracted", 
+			"3" :  "can attract suspension or cancellation of driving licence"
+		},
+        "answer" : "3"
+    },
+	{
+        "qNumber" :  138,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_irs16.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Parking prohibited.", 
+			"2" :  "Parking both sides.", 
+			"3" :  "Police aid post."
+		},
+        "answer" : "2"
+    },
+	{
+        "qNumber" :  139,
+		"imageUrl": null,
+		"question": "The driver of a taxi refusing the offer for journey for the reason that the distance is short..",
+		"options": {
+			"1" :  "can attract suspension/cancellation of driving licence", 
+			"2" :  "only fine is attracted", 
+			"3" :  "None of the above"
+		},
+        "answer" : "1"
+    },
+	{
+        "qNumber" :  140,
+		"imageUrl": "https://jhpolice.gov.in/sites/default/files/page/sign-language/jhpolice_sl_irs17.jpg",
+		"question": "The sign represents",
+		"options": {
+			"1" :  "Parking lot - scooters and motor cycles.", 
+			"2" :  "Scooters and motor cycles prohibited.", 
+			"3" :  "Scooters and motor cycles repairing."
+		},
+        "answer" : "1"
     }
 ]
