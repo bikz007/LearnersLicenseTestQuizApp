@@ -2,7 +2,7 @@ import React from "react";
 
 const DisplayResult = (props) => {
   const { results } = props;
-
+  document.title = "Results";
   if (results.length > 0) {
     return (
       <div>

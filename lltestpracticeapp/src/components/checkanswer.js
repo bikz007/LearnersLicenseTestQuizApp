@@ -4,16 +4,12 @@ const CheckAnswer = (props) => {
   const { selectedAnswer, correctAnswer } = props;
   if (selectedAnswer !== null) {
     if (selectedAnswer === correctAnswer) {
-      return <div className="correct-answer">Correct answer</div>;
+      return <div className="correct-answer">Correct answer.</div>;
     } else {
-      return (
-        <div className="wrong-answer">
-          Oops wrong answer! Correct answer: {correctAnswer}
-        </div>
-      );
+      return <div className="wrong-answer">Oops! Wrong answer.</div>;
     }
   } else {
-    return <div className="un-answer">Answer not selected.</div>;
+    return <div></div>;
   }
 };
 export default CheckAnswer;

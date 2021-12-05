@@ -12,7 +12,7 @@ class Question extends React.Component {
   handleSubmit(event) {}
 
   render() {
-    const { ques } = this.props;
+    const { ques,disableOptions } = this.props;
     return (
       <div className="question">
         <div className="question-body">
@@ -28,6 +28,7 @@ class Question extends React.Component {
                 type="radio"
                 name="answer"
                 value={1}
+                disabled={disableOptions}
                 onClick={this.props.onOptionSelect}
               />
               <label htmlFor="option-one">{ques.options[1]}</label>
@@ -37,6 +38,7 @@ class Question extends React.Component {
                 type="radio"
                 name="answer"
                 value={2}
+                disabled={disableOptions}
                 onClick={this.props.onOptionSelect}
               />
               <label htmlFor="option-two">{ques.options[2]}</label>
@@ -46,6 +48,7 @@ class Question extends React.Component {
                 type="radio"
                 name="answer"
                 value={3}
+                disabled={disableOptions}
                 onClick={this.props.onOptionSelect}
               />
               <label htmlFor="option-three">{ques.options[3]}</label>
