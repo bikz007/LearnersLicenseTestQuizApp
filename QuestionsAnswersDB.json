@@ -292,7 +292,7 @@
 		"options": {
 			"1" :  "The vehicle should be locked.", 
 			"2" :  "The person having licence to drive such a vehicle should be in drivers seat.", 
-			"3" :  "The park shall remain lit."
+			"3" :  "The park light shall remain lit."
 		},
         "answer" : "3"
     },
