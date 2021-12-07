@@ -4,9 +4,9 @@ const CheckAnswer = (props) => {
   const { selectedAnswer, correctAnswer } = props;
   if (selectedAnswer !== null) {
     if (selectedAnswer === correctAnswer) {
-      return <div className="correct-answer">Correct answer.</div>;
+      return <div className="answer correct-answer">Correct!</div>;
     } else {
-      return <div className="wrong-answer">Oops! Wrong answer.</div>;
+      return <div className="answer wrong-answer">Oops!</div>;
     }
   } else {
     return <div></div>;
