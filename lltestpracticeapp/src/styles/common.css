@@ -1,0 +1,96 @@
+.container {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin: 25px;
+  width: auto;
+  height: auto;
+  /* for debug purpose */
+  /* outline: dashed 1px black; */
+  position: relative;
+}
+.question-stat-container {
+  display: flex;
+}
+
+.question-body {
+  display: flex;
+  text-align: justify;
+  top: 50%;
+  left: 50%;
+  align-items: center;
+}
+
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  text-align: center;
+  margin-left: auto;
+}
+
+.stats-container .num-questions {
+  justify-content: center;
+}
+
+.stats-container strong {
+  font-size: 3em;
+}
+
+.container .next-question-btn,.save-results-btn,.start-quiz-btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.save-results-btn {
+  margin-right: 2%;
+}
+
+.start-quiz-btn  {
+  margin-left: 2%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+header button {
+  border: 0;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 1.3em;
+  background-color: #bbbebb;
+}
+
+.result-page-btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.answer {
+  border: 10;
+  border-radius: 9px;
+  padding: 5px;
+  font-size: 1.3em;
+}
+.correct-answer {
+  background-color: #66bb6a;
+}
+
+.wrong-answer {
+  background-color: #f06292;
+}
+
+table, th, td {
+  outline: 1px solid black;
+  text-align: center;
+}
+
+th {
+  width: 300px;
+}
+
+.result-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+

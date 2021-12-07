@@ -1,6 +1,6 @@
 import React from "react";
 import Question from "./question";
-import "../styles/question.css";
+import "../styles/common.css";
 import CheckAnswer from "./checkanswer";
 import DisplayResult from "./displayresult";
 const TIME_FOR_EACH_QUESTION = 30;
@@ -147,35 +147,66 @@ class GenerateRandomQuesionIdx extends React.Component {
         return (
           <div>
             <DisplayResult results={this.state.results} />
-            <button onClick={this.handleSaveToPC.bind(this)}>
-              Save results
-            </button>
-            <button onClick={this.startNewQuiz.bind(this)}>
-              Start next quiz
-            </button>
+            <header className="container">
+              <div className="save-results-btn">
+                <button onClick={this.handleSaveToPC.bind(this)}>
+                  Save results
+                </button>
+              </div>
+              <div className="start-quiz-btn">
+                <button onClick={this.startNewQuiz.bind(this)}>
+                  Start next quiz
+                </button>
+              </div>
+            </header>
           </div>
         );
       } else {
         return (
-          <div className="GenerateRandomQuesionIdx container">
-            <div>
-              <button onClick={this.updateQuestion.bind(this)}>
-                Next question
-              </button>
+          <div>
+            <header className="container">
+              <div className="next-question-btn">
+                <button onClick={this.updateQuestion.bind(this)}>
+                  Next question
+                </button>
+              </div>
+            </header>
+            <div className="question-stat-container">
+              <div className="container question-options-container">
+                <Question
+                  ques={this.state.ques}
+                  disableOptions={this.state.disableOptions}
+                  onOptionSelect={this.selectedAnswerChange.bind(this)}
+                />
+              </div>
+              <div className="container stats-container">
+                <div className="num-questions">
+                  Question#
+                  <hr />
+                  <div>
+                    {/*to pad zeroes as prefix*/}
+                    <strong>{("0" + numOfQuesAppeared).slice(-2)}</strong>
+                  </div>
+                </div>
+                <div className="timer">
+                  Timer
+                  <hr />
+                  <div>
+                    <strong>
+                      {/*to pad zeroes as prefix*/}
+                      {(
+                        "0" +
+                        (TIME_FOR_EACH_QUESTION - this.state.secondsCount)
+                      ).slice(-2)}
+                    </strong>
+                  </div>
+                </div>
+                <CheckAnswer
+                  selectedAnswer={this.state.selectedAnswer}
+                  correctAnswer={this.state.ques.answer}
+                />
+              </div>
             </div>
-            <div>
-              <p>Num of questions so far: {numOfQuesAppeared}</p>
-            </div>
-            <h1>Timer: {TIME_FOR_EACH_QUESTION - this.state.secondsCount}</h1>
-            <Question
-              ques={this.state.ques}
-              disableOptions={this.state.disableOptions}
-              onOptionSelect={this.selectedAnswerChange.bind(this)}
-            />
-            <CheckAnswer
-              selectedAnswer={this.state.selectedAnswer}
-              correctAnswer={this.state.ques.answer}
-            />
           </div>
         );
       }
