@@ -533,7 +533,7 @@
 		"question": "Rear view mirror is used",
 		"options": {
 			"1" :  "for seeing face.", 
-			"2" :  "for approaching the traffic approaching from behind.", 
+			"2" :  "for watching the traffic approaching from behind.", 
 			"3" :  "for seeing the backseat passenger."
 		},
         "answer" : "2"
