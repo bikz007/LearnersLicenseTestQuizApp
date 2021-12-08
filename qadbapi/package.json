@@ -4,8 +4,7 @@
   "description": "Rest API for traffic lessons quiz",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "testdev": "nodemon index.js"
+    "start": "nodemon index.js"
   },
   "author": "bikz007",
   "license": "ISC",
