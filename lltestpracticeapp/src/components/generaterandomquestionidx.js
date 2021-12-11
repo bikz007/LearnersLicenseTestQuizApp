@@ -19,6 +19,7 @@ class GenerateRandomQuesionIdx extends React.Component {
       numOfQuesAppeared: 1,
       selectedAnswer: null,
       secondsCount: 0,
+      currentQuizQuesIdxs : [],
       disableOptions: false,
     };
   }
@@ -35,6 +36,7 @@ class GenerateRandomQuesionIdx extends React.Component {
           randomQuestionIdx: Math.floor(
             Math.random() * this.state.totalNumQues
           ),
+          currentQuizQuesIdxs : [...this.state.currentQuizQuesIdxs,this.state.randomQuestionIdx]
         });
         this.fetchQuestion(this.state.randomQuestionIdx);
       })
@@ -72,14 +74,18 @@ class GenerateRandomQuesionIdx extends React.Component {
   updateQuestion() {
     const oldIdx = this.state.randomQuestionIdx;
     var newIdx = this.state.randomQuestionIdx;
-    while (oldIdx === newIdx) {
+    while ((oldIdx === newIdx) || (this.state.currentQuizQuesIdxs.includes(newIdx))) {
       newIdx = Math.floor(Math.random() * this.state.totalNumQues);
-      if (oldIdx !== newIdx) {
+      if ((oldIdx !== newIdx) && !(this.state.currentQuizQuesIdxs.includes(newIdx))) {
         break;
       }
     }
     // eslint-disable-next-line
     this.state.randomQuestionIdx = newIdx;
+    // eslint-disable-next-line
+    this.state.currentQuizQuesIdxs.push(newIdx)
+    console.info(newIdx);
+    console.info(this.state.currentQuizQuesIdxs)
     this.fetchQuestion(this.state.randomQuestionIdx);
     this.setState({
       secondsCount: 0,
@@ -94,6 +100,8 @@ class GenerateRandomQuesionIdx extends React.Component {
     this.state.numOfQuesAppeared = 0;
     // eslint-disable-next-line
     this.state.results.length = 0;
+    // eslint-disable-next-line
+    this.state.currentQuizQuesIdxs.length = 0;
     this.setState({
       secondsCount: 0,
     });
@@ -116,7 +124,7 @@ class GenerateRandomQuesionIdx extends React.Component {
   }
 
   handleSaveToPC() {
-    const jsonData = this.state.results;
+    const jsonData = { "results" : this.state.results };
     const currDate = new Date();
     const filename =
       "results_" +
