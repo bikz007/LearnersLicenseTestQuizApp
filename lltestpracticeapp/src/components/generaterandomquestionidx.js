@@ -5,6 +5,7 @@ import CheckAnswer from "./checkanswer";
 import DisplayResult from "./displayresult";
 const TIME_FOR_EACH_QUESTION = 30;
 const TOTAL_NUM_QUESTIONS_PER_TEST = 10;
+const API_BASE_URL = "https://qadbapi.herokuapp.com"
 class GenerateRandomQuesionIdx extends React.Component {
   //constructor
   constructor(props) {
@@ -25,7 +26,7 @@ class GenerateRandomQuesionIdx extends React.Component {
   }
 
   async fetchAllData() {
-    await fetch(`http://localhost:4000/totalitems`)
+    await fetch(`${API_BASE_URL}/totalitems`)
       .then((res) => res.json())
       .then((resJson) => {
         this.setState({
@@ -44,7 +45,7 @@ class GenerateRandomQuesionIdx extends React.Component {
   }
 
   async fetchQuestion(qIdx) {
-    await fetch(`http://localhost:4000/qna/${qIdx}`)
+    await fetch(`${API_BASE_URL}/qna/${qIdx}`)
       .then((res) => res.json())
       .then((resJson) => {
         this.setState({ ques: resJson, QuestionLoaded: true });
