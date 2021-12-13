@@ -1,3 +1,6 @@
 [submodule "qadbapi"]
 	path = qadbapi
 	url = https://github.com/bikz007/qadbapi.git
+[submodule "lltestpracticeapp"]
+	path = lltestpracticeapp
+	url = https://github.com/bikz007/lltestpracticeapp
