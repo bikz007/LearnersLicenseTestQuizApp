@@ -1,0 +1,3 @@
+[submodule "qadbapi"]
+	path = qadbapi
+	url = https://github.com/bikz007/qadbapi.git
