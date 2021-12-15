@@ -3,8 +3,6 @@ import json
 import os
 import pandas as pd
 import sys
-from matplotlib import pyplot as plt
-import seaborn as sns
 sys.dont_write_bytecode = True
 # change these as per total number of questions in questions and answers database
 TOTAL_NUM_OF_QUESTIONS = 140
@@ -33,17 +31,23 @@ def unique_ques(df):
 
 def questions_not_attempted(df):
     uniq_q_num_series = df.qNumber
-    # print(sorted(list(uniq_q_num_series)))
     res = series_of_actual_qnum[~series_of_actual_qnum.isin(uniq_q_num_series)]
-    print(sorted(list(res)))
     return res
 
 uniq_ques_df = unique_ques(final_df)
 
-pp("Unique number of questions attempted so far: {}".format(uniq_ques_df.qNumber.size))
-pp("Number of questions not attempted so far: {}".format(questions_not_attempted(uniq_ques_df).size))
+# pp("Unique number of questions attempted so far: {}".format(uniq_ques_df.qNumber.size))
+# pp("Number of questions not attempted so far: {}".format(questions_not_attempted(uniq_ques_df).size))
+
 frequency = final_df['qNumber'].value_counts()
-qnum_freq_df = pd.concat([uniq_ques_df['qNumber'],frequency.reset_index(drop=True)],axis=1)
-qnum_freq_df.columns = ['qNumber', 'frequency']
-# pp(qnum_freq_df[qnum_freq_df['frequency'] < 2].count())
-pp(qnum_freq_df.sort_values('frequency',ascending=False).to_string())
+qnum_freq_df = pd.DataFrame(frequency)
+qnum_freq_df.reset_index(level=0, inplace=True)
+qnum_freq_df.columns = ['qNumber','frequency']
+# pp(qnum_freq_df.sort_values('frequency',ascending=False).head(10))
+# pp(qnum_freq_df.sort_values('frequency',ascending=False).tail(15))
+# pp(qnum_freq_df[qnum_freq_df['frequency'] == 12])
+# pp(final_df[final_df['qNumber'] == 81].head(20))
+max_freq = max(qnum_freq_df['frequency'])
+min_freq = min(qnum_freq_df['frequency'])
+for i in range(min_freq,max_freq+1):
+    print(i,"-times->",int(qnum_freq_df[qnum_freq_df['frequency'] == i].size / 2),'questions')
